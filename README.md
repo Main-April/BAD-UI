@@ -4,7 +4,7 @@
 
 ## Description
 
-This project was created for the **BafduiBattles / Bad UI Challenge**.  
+This project was created for the **r/BaduiBattles / Bad UI Challenge**.  
 It’s a deliberately terrible, chaotic, and “Alzheimer-inspired” date picker.  
 
 The longer you interact with it, the more the date **degrades progressively**, mimicking memory loss.  
