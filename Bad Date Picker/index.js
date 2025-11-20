@@ -8,10 +8,10 @@ let alz = {
 
 send.addEventListener("click", () => {
   let confirmation = date.value
-  if (confirm("Are you sure the date is: " + confirmation.replace(/-/g, "/").split("").reverse().join(""))) {
+  if (confirm("Are you sure the date is: " + confirmation.replace(/-/g, "/"))) {
     clearInterval(interval);
     alert("Your date has been successfully registered!");
-    alert("Oops... I think I forgot your date. What was it again? " + apply_alz(confirmation).replace(/-/g,"/").split("").reverse().join(""));
+    alert("Oops... I think I forgot your date. What was it again? " + apply_alz(confirmation).replace(/-/g,"/"));
   }
 });
 
