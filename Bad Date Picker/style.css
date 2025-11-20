@@ -1,0 +1,7 @@
+label,input{
+    display : block;
+    margin-bottom : 10px;
+}
+label{
+    color : red;
+}
